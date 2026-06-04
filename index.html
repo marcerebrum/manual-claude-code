@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<!-- saved from url=(0050)https://manual-claude.madeinvibecoding.com/#cap-01 -->
+<html lang="pt-BR" data-lt-installed="true"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manual — Claude Code / Nº 01</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+  <link href="./css/css2" rel="stylesheet">
+</head>
+<body>
+  <div class="grain"></div>
+
+  <!-- Marquee top -->
+  <div class="marquee">
+    <div class="marquee-track">
+      <span>★ MANUAL DO CLAUDE CODE ★ GUIA PRÁTICO PARA INICIANTES ★ ABRIL 2026 ★ Nº 01 ★ EDIÇÃO DE ESTREIA ★ ANTHROPIC ★ </span>
+      <span>★ MANUAL DO CLAUDE CODE ★ GUIA PRÁTICO PARA INICIANTES ★ ABRIL 2026 ★ Nº 01 ★ EDIÇÃO DE ESTREIA ★ ANTHROPIC ★ </span>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="masthead">
+    <div class="mast-left">
+      <div class="mast-meta">
+        <span>Volume I</span>
+        <span>/</span>
+        <span>Edição 01</span>
+      </div>
+      <div class="mast-date">Quinta, 9 de Abril de 2026</div>
+    </div>
+    <div class="mast-center">
+      <div class="logo-badge">CC</div>
+    </div>
+    <div class="mast-right">
+      <div class="mast-meta right">
+        <span>Preço</span>
+        <span>/</span>
+        <span>Gratuito</span>
+      </div>
+      <div class="mast-date">Impresso em bits</div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="inicio">
+    <div class="hero-grid">
+      <div class="hero-eyebrow">
+        <span class="line"></span>
+        <span>Um manual editorial para iniciantes</span>
+      </div>
+
+      <h1 class="hero-title">
+        <span class="word word-1">Manual</span>
+        <span class="word word-2">do</span>
+        <span class="word-row">
+          <span class="word word-3"><em>Claude</em></span>
+          <span class="word word-4">Code<span class="blink">_</span></span>
+        </span>
+      </h1>
+
+      <div class="hero-deck">
+        <p>
+          Tudo que um iniciante precisa saber para usar o Claude Code com confiança:
+          <strong>arquivos essenciais</strong>, <strong>comandos</strong>,
+          <strong>organização de pastas</strong>, <strong>subagentes</strong>,
+          <strong>hooks</strong>, <strong>MCPs</strong> e as
+          <strong>boas práticas oficiais</strong> da Anthropic, reunidas em uma única edição.
+        </p>
+      </div>
+
+      <div class="hero-footer">
+        <div class="hero-stat">
+          <span class="num">14</span>
+          <span class="lbl">Capítulos</span>
+        </div>
+        <div class="hero-stat">
+          <span class="num">30+</span>
+          <span class="lbl">Comandos</span>
+        </div>
+        <div class="hero-stat">
+          <span class="num">10</span>
+          <span class="lbl">Boas práticas</span>
+        </div>
+        <div class="hero-stat">
+          <span class="num">01</span>
+          <span class="lbl">Sessão. Zero medo.</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="scroll-hint">
+      <span>role para ler</span>
+      <svg width="14" height="40" viewBox="0 0 14 40" fill="none"><path d="M7 0 V38 M1 32 L7 38 L13 32" stroke="currentColor" stroke-width="1.2"></path></svg>
+    </div>
+  </section>
+
+  <!-- Table of Contents -->
+  <section class="toc">
+    <div class="section-head">
+      <div class="chapter-no">Índice</div>
+      <div class="section-title">Sumário da edição</div>
+      <div class="section-line"></div>
+    </div>
+
+    <ol class="toc-list">
+      <li style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);"><a href="https://manual-claude.madeinvibecoding.com/#cap-01"><span class="toc-num">01</span><span class="toc-name">O que é o Claude Code</span><span class="toc-dots"></span><span class="toc-page">p. 01</span></a></li>
+      <li style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);"><a href="https://manual-claude.madeinvibecoding.com/#cap-02"><span class="toc-num">02</span><span class="toc-name">Instalação e primeiros passos</span><span class="toc-dots"></span><span class="toc-page">p. 02</span></a></li>
+      <li style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);"><a href="https://manual-claude.madeinvibecoding.com/#cap-03"><span class="toc-num">03</span><span class="toc-name">Os arquivos que importam</span><span class="toc-dots"></span><span class="toc-page">p. 03</span></a></li>
+      <li style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);"><a href="https://manual-claude.madeinvibecoding.com/#cap-04"><span class="toc-num">04</span><span class="toc-name">Organização de pastas</span><span class="toc-dots"></span><span class="toc-page">p. 05</span></a></li>
+      <li style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);"><a href="https://manual-claude.madeinvibecoding.com/#cap-05"><span class="toc-num">05</span><span class="toc-name">Comandos slash essenciais</span><span class="toc-dots"></span><span class="toc-page">p. 06</span></a></li>
+      <li style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);"><a href="https://manual-claude.madeinvibecoding.com/#cap-06"><span class="toc-num">06</span><span class="toc-name">Atalhos de teclado</span><span class="toc-dots"></span><span class="toc-page">p. 08</span></a></li>
+      <li style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);"><a href="https://manual-claude.madeinvibecoding.com/#cap-07"><span class="toc-num">07</span><span class="toc-name">Subagentes especializados</span><span class="toc-dots"></span><span class="toc-page">p. 09</span></a></li>
+      <li style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);"><a href="https://manual-claude.madeinvibecoding.com/#cap-08"><span class="toc-num">08</span><span class="toc-name">Hooks: automação real</span><span class="toc-dots"></span><span class="toc-page">p. 10</span></a></li>
+      <li style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);"><a href="https://manual-claude.madeinvibecoding.com/#cap-09"><span class="toc-num">09</span><span class="toc-name">MCPs — plugando habilidades</span><span class="toc-dots"></span><span class="toc-page">p. 11</span></a></li>
+      <li style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);"><a href="https://manual-claude.madeinvibecoding.com/#cap-10"><span class="toc-num">10</span><span class="toc-name">Skills reutilizáveis</span><span class="toc-dots"></span><span class="toc-page">p. 12</span></a></li>
+      <li style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);"><a href="https://manual-claude.madeinvibecoding.com/#cap-11"><span class="toc-num">11</span><span class="toc-name">Dez boas práticas</span><span class="toc-dots"></span><span class="toc-page">p. 13</span></a></li>
+      <li style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);"><a href="https://manual-claude.madeinvibecoding.com/#cap-12"><span class="toc-num">12</span><span class="toc-name">Workflow recomendado</span><span class="toc-dots"></span><span class="toc-page">p. 14</span></a></li>
+      <li style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);"><a href="https://manual-claude.madeinvibecoding.com/#cap-13"><span class="toc-num">13</span><span class="toc-name">Colofão &amp; leituras</span><span class="toc-dots"></span><span class="toc-page">p. 15</span></a></li>
+    </ol>
+  </section>
+
+  <!-- CAP 01 -->
+  <article class="chapter" id="cap-01">
+    <div class="chapter-header" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+      <div class="chapter-number" style="transform: translateY(-0.897197px);">01</div>
+      <div class="chapter-kicker">Capítulo um · introdução</div>
+      <h2 class="chapter-title">O que é o <em>Claude Code</em></h2>
+    </div>
+
+    <div class="chapter-body two-col" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+      <div class="col">
+        <p class="drop-cap">
+          <strong>C</strong>laude Code é a ferramenta oficial de <em>programação agêntica no terminal</em> criada pela Anthropic. Ele lê o seu projeto, entende a arquitetura, executa comandos shell, edita arquivos, roda testes, faz commits — e tudo isso sentado ao seu lado, no mesmo ambiente em que você já trabalha.
+        </p>
+        <p>
+          Diferente de um chatbot tradicional, o Claude Code opera como um <strong>agente</strong>: você descreve o objetivo, ele planeja, executa em múltiplos passos, pede permissão quando necessário e entrega o resultado pronto para revisão.
+        </p>
+      </div>
+      <div class="col">
+        <div class="feature-grid">
+          <div class="feat" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);"><span class="feat-mark">①</span><h4>Terminal-first</h4><p>Roda no seu terminal favorito. Zero fricção.</p></div>
+          <div class="feat" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);"><span class="feat-mark">②</span><h4>Contexto real</h4><p>Entende toda a base de código automaticamente.</p></div>
+          <div class="feat" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);"><span class="feat-mark">③</span><h4>Extensível</h4><p>Hooks, subagentes, MCPs e skills customizadas.</p></div>
+          <div class="feat" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);"><span class="feat-mark">④</span><h4>Seguro</h4><p>Permissões granulares para cada tipo de ação.</p></div>
+        </div>
+      </div>
+    </div>
+
+    <blockquote class="pull-quote">
+      <span class="q-mark">“</span>
+      <p>Não é autocompletar. É um colaborador que <em>entende</em> o seu código e trabalha junto.</p>
+    </blockquote>
+  </article>
+
+  <!-- CAP 02 -->
+  <article class="chapter" id="cap-02">
+    <div class="chapter-header" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+      <div class="chapter-number" style="transform: translateY(-1.56377px);">02</div>
+      <div class="chapter-kicker">Capítulo dois · começando</div>
+      <h2 class="chapter-title">Instalação em <em>dois</em> passos</h2>
+    </div>
+    <div class="chapter-body" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+      <p class="lead-p">Você precisa de Node.js instalado. O restante é direto ao ponto.</p>
+
+      <div class="terminal">
+        <div class="term-bar">
+          <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+          <span class="term-title">bash — instalação global</span>
+          <button class="term-copy">copy</button>
+        </div>
+        <pre class="term-body"><span class="prompt">$</span> <span class="cmd">npm install -g @anthropic-ai/claude-code</span>
+
+<span class="prompt">$</span> <span class="cmd">cd meu-projeto</span>
+<span class="prompt">$</span> <span class="cmd">claude</span>
+<span class="output">→ iniciando sessão ✓
+→ lendo CLAUDE.md ✓
+→ pronto.</span></pre>
+      </div>
+
+      <div class="note">
+        <span class="note-label">Nota do editor</span>
+        <p>Na primeira execução o Claude pede login (Claude.ai ou API Console). Depois disso, basta rodar <code>claude</code> dentro de qualquer projeto.</p>
+      </div>
+    </div>
+  </article>
+
+  <!-- CAP 03 -->
+  <article class="chapter" id="cap-03">
+    <div class="chapter-header" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+      <div class="chapter-number" style="transform: translateY(-4.49248px);">03</div>
+      <div class="chapter-kicker">Capítulo três · anatomia</div>
+      <h2 class="chapter-title">Os <em>arquivos</em> que importam</h2>
+    </div>
+    <div class="chapter-body" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+      <p class="lead-p">Saber esses arquivos de cor é o atalho para dominar o Claude Code. Cada um tem uma função precisa.</p>
+
+      <div class="files">
+        <div class="file" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+          <div class="file-head">
+            <span class="file-idx">A</span>
+            <h3>CLAUDE.md</h3>
+            <span class="file-path">raiz/ · ~/.claude/</span>
+          </div>
+          <p>A <em>memória</em> do projeto. Convenções, arquitetura, comandos úteis — tudo que o Claude deve ler toda vez que abrir o repositório. O arquivo na raiz vale para o projeto; o global vale para tudo.</p>
+          <div class="chips"><span>memória</span><span>contexto</span><span>versionado</span></div>
+        </div>
+
+        <div class="file" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+          <div class="file-head">
+            <span class="file-idx">B</span>
+            <h3>.claude/settings.json</h3>
+            <span class="file-path">raiz/.claude/</span>
+          </div>
+          <p>Configurações do projeto <em>versionadas no git</em>. Define permissões, hooks, modelo padrão, variáveis e MCPs habilitados — a base compartilhada com o time.</p>
+          <div class="chips"><span>config</span><span>hooks</span><span>permissões</span></div>
+        </div>
+
+        <div class="file" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+          <div class="file-head">
+            <span class="file-idx">C</span>
+            <h3>.claude/settings.local.json</h3>
+            <span class="file-path">gitignore</span>
+          </div>
+          <p>Preferências <em>pessoais</em> do dev. Nunca versionado. Tokens, overrides temporários, atalhos locais.</p>
+          <div class="chips"><span>local</span><span>privado</span></div>
+        </div>
+
+        <div class="file" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+          <div class="file-head">
+            <span class="file-idx">D</span>
+            <h3>.claude/agents/*.md</h3>
+            <span class="file-path">pasta agents/</span>
+          </div>
+          <p>Cada arquivo <code>.md</code> descreve um <em>subagente</em> especializado — com prompt, ferramentas permitidas e modelo escolhido.</p>
+          <div class="chips"><span>subagentes</span><span>paralelo</span></div>
+        </div>
+
+        <div class="file" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+          <div class="file-head">
+            <span class="file-idx">E</span>
+            <h3>.claude/commands/*.md</h3>
+            <span class="file-path">pasta commands/</span>
+          </div>
+          <p>Comandos <em>slash customizados</em>. O nome do arquivo vira o comando: <code>deploy.md</code> → <code>/deploy</code>.</p>
+          <div class="chips"><span>slash</span><span>reutilizável</span></div>
+        </div>
+
+        <div class="file" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+          <div class="file-head">
+            <span class="file-idx">F</span>
+            <h3>.claude/skills/</h3>
+            <span class="file-path">pasta skills/</span>
+          </div>
+          <p>Skills são conjuntos de instruções que o Claude invoca <em>automaticamente</em> quando o contexto pede. Perfeitas para metodologias repetíveis.</p>
+          <div class="chips"><span>skills</span><span>auto-invoke</span></div>
+        </div>
+
+        <div class="file" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+          <div class="file-head">
+            <span class="file-idx">G</span>
+            <h3>.claudeignore</h3>
+            <span class="file-path">raiz/</span>
+          </div>
+          <p>Igual ao <code>.gitignore</code>, mas para o Claude. Evita que ele leia <code>node_modules</code>, builds, caches e outros arquivos irrelevantes.</p>
+          <div class="chips"><span>ignore</span></div>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <!-- CAP 04 -->
+  <article class="chapter" id="cap-04">
+    <div class="chapter-header" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+      <div class="chapter-number" style="transform: translateY(-9.55691px);">04</div>
+      <div class="chapter-kicker">Capítulo quatro · arquitetura</div>
+      <h2 class="chapter-title">A <em>organização</em> ideal</h2>
+    </div>
+    <div class="chapter-body" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+      <p class="lead-p">A estrutura abaixo é o que a documentação oficial recomenda e o que a maioria dos projetos maduros adota:</p>
+
+      <div class="tree">
+<pre><span class="dir">meu-projeto/</span>
+├── <span class="dir">.claude/</span>
+│   ├── <span class="file-name">settings.json</span>          <span class="comment">← config versionada</span>
+│   ├── <span class="file-name">settings.local.json</span>    <span class="comment">← config local (gitignore)</span>
+│   ├── <span class="dir">agents/</span>                <span class="comment">← subagentes</span>
+│   │   ├── reviewer.md
+│   │   └── tester.md
+│   ├── <span class="dir">commands/</span>              <span class="comment">← comandos slash</span>
+│   │   ├── deploy.md
+│   │   └── revisar.md
+│   ├── <span class="dir">skills/</span>                <span class="comment">← skills customizadas</span>
+│   │   └── <span class="dir">minha-skill/</span>
+│   │       └── SKILL.md
+│   └── <span class="dir">hooks/</span>                 <span class="comment">← scripts auxiliares</span>
+│       └── pre-commit.sh
+├── <span class="file-name highlight">CLAUDE.md</span>                  <span class="comment">← ★ memória principal</span>
+├── <span class="file-name">.claudeignore</span>              <span class="comment">← arquivos a ignorar</span>
+├── <span class="dir">src/</span>
+├── <span class="dir">tests/</span>
+└── <span class="file-name">package.json</span></pre>
+      </div>
+
+      <div class="note success">
+        <span class="note-label">Recomendação</span>
+        <p>Versione no git: <code>CLAUDE.md</code>, <code>.claude/settings.json</code>, <code>agents/</code>, <code>commands/</code>. Assim, toda a equipe compartilha o mesmo contexto e os mesmos superpoderes.</p>
+      </div>
+    </div>
+  </article>
+
+  <!-- CAP 05 -->
+  <article class="chapter" id="cap-05">
+    <div class="chapter-header" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+      <div class="chapter-number" style="transform: translateY(-0.789543px);">05</div>
+      <div class="chapter-kicker">Capítulo cinco · interação</div>
+      <h2 class="chapter-title">Comandos <em>slash</em> essenciais</h2>
+    </div>
+    <div class="chapter-body" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+      <p class="lead-p">Comandos começados com <code>/</code> funcionam dentro da sessão. Decore estes primeiro:</p>
+
+      <div class="cmd-table">
+        <div class="cmd-row header" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);"><span>Comando</span><span>O que faz</span></div>
+        <div class="cmd-row" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);"><code>/help</code><span>Lista todos os comandos disponíveis</span></div>
+        <div class="cmd-row" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);"><code>/clear</code><span>Limpa o histórico da conversa atual</span></div>
+        <div class="cmd-row" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);"><code>/compact</code><span>Comprime contexto, libera tokens</span></div>
+        <div class="cmd-row" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);"><code>/model</code><span>Alterna entre Opus, Sonnet, Haiku</span></div>
+        <div class="cmd-row" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);"><code>/agents</code><span>Gerencia subagentes do projeto</span></div>
+        <div class="cmd-row" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);"><code>/mcp</code><span>Lista e configura servidores MCP</span></div>
+        <div class="cmd-row" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);"><code>/hooks</code><span>Abre configuração de hooks</span></div>
+        <div class="cmd-row" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);"><code>/permissions</code><span>Controla o que o Claude pode fazer</span></div>
+        <div class="cmd-row" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);"><code>/config</code><span>Abre configurações do harness</span></div>
+        <div class="cmd-row" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);"><code>/memory</code><span>Edita arquivos CLAUDE.md ativos</span></div>
+        <div class="cmd-row" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);"><code>/cost</code><span>Mostra tokens usados e custo estimado</span></div>
+        <div class="cmd-row" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);"><code>/review</code><span>Inicia revisão estruturada de código</span></div>
+        <div class="cmd-row" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);"><code>/init</code><span>Gera um CLAUDE.md inicial</span></div>
+        <div class="cmd-row" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);"><code>/doctor</code><span>Diagnostica a instalação</span></div>
+        <div class="cmd-row" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);"><code>/login</code><span>Entrada/saída de conta Anthropic</span></div>
+        <div class="cmd-row" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);"><code>/exit</code><span>Encerra a sessão</span></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- CAP 06 -->
+  <article class="chapter" id="cap-06">
+    <div class="chapter-header" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+      <div class="chapter-number" style="transform: translateY(-6.46716px);">06</div>
+      <div class="chapter-kicker">Capítulo seis · teclas</div>
+      <h2 class="chapter-title">Atalhos que fazem <em>diferença</em></h2>
+    </div>
+    <div class="chapter-body" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+      <div class="keyboard">
+        <div class="key-row" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);"><div class="keys"><kbd>Esc</kbd></div><p>Interrompe a ação atual do Claude</p></div>
+        <div class="key-row" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);"><div class="keys"><kbd>Esc</kbd><kbd>Esc</kbd></div><p>Volta à mensagem anterior para edição</p></div>
+        <div class="key-row" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);"><div class="keys"><kbd>Shift</kbd>+<kbd>Tab</kbd></div><p>Alterna modo (plan / auto-accept)</p></div>
+        <div class="key-row" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);"><div class="keys"><kbd>Ctrl</kbd>+<kbd>C</kbd></div><p>Cancela input atual</p></div>
+        <div class="key-row" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);"><div class="keys"><kbd>Ctrl</kbd>+<kbd>D</kbd></div><p>Sai do Claude Code</p></div>
+        <div class="key-row" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);"><div class="keys"><kbd>↑</kbd><kbd>↓</kbd></div><p>Navega pelo histórico de prompts</p></div>
+        <div class="key-row" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);"><div class="keys"><kbd>#</kbd> texto</div><p>Adiciona rápido ao CLAUDE.md</p></div>
+        <div class="key-row" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);"><div class="keys"><kbd>!</kbd> texto</div><p>Executa comando bash diretamente</p></div>
+        <div class="key-row" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);"><div class="keys"><kbd>@</kbd> arquivo</div><p>Referencia arquivo no prompt</p></div>
+      </div>
+    </div>
+  </article>
+
+  <!-- CAP 07 -->
+  <article class="chapter" id="cap-07">
+    <div class="chapter-header" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+      <div class="chapter-number" style="transform: translateY(-8.94724px);">07</div>
+      <div class="chapter-kicker">Capítulo sete · delegação</div>
+      <h2 class="chapter-title"><em>Subagentes</em> especializados</h2>
+    </div>
+    <div class="chapter-body" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+      <p class="lead-p">Subagentes são assistentes paralelos, com contexto isolado. Perfeitos para pesquisas longas, execução em paralelo e proteção da janela de contexto principal.</p>
+
+      <div class="terminal">
+        <div class="term-bar">
+          <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+          <span class="term-title">.claude/agents/reviewer.md</span>
+          <button class="term-copy">copy</button>
+        </div>
+<pre class="term-body"><span class="comment">---</span>
+<span class="key">name</span>: reviewer
+<span class="key">description</span>: Revisa código em busca de bugs e más práticas
+<span class="key">tools</span>: Read, Grep, Glob
+<span class="key">model</span>: sonnet
+<span class="comment">---</span>
+
+Você é um revisor sênior de código. Analise os arquivos
+passados e reporte problemas de segurança, performance e
+legibilidade com referências <span class="str">file:line</span>.</pre>
+      </div>
+
+      <blockquote class="pull-quote small">
+        <p>Use subagentes quando a tarefa consumir muito contexto ou quando duas coisas puderem rodar em paralelo.</p>
+      </blockquote>
+    </div>
+  </article>
+
+  <!-- CAP 08 -->
+  <article class="chapter" id="cap-08">
+    <div class="chapter-header" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+      <div class="chapter-number" style="transform: translateY(-7.57838px);">08</div>
+      <div class="chapter-kicker">Capítulo oito · automação</div>
+      <h2 class="chapter-title"><em>Hooks</em> automáticos</h2>
+    </div>
+    <div class="chapter-body" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+      <p class="lead-p">Hooks são comandos shell que o harness executa automaticamente em eventos: antes/depois de uma tool, ao submeter um prompt, ao encerrar uma sessão. Perfeitos para lint, formatação e validações.</p>
+
+      <div class="terminal">
+        <div class="term-bar">
+          <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+          <span class="term-title">.claude/settings.json</span>
+          <button class="term-copy">copy</button>
+        </div>
+<pre class="term-body">{
+  <span class="str">"hooks"</span>: {
+    <span class="str">"PostToolUse"</span>: [
+      {
+        <span class="str">"matcher"</span>: <span class="str">"Edit|Write"</span>,
+        <span class="str">"hooks"</span>: [
+          {
+            <span class="str">"type"</span>: <span class="str">"command"</span>,
+            <span class="str">"command"</span>: <span class="str">"npx prettier --write $CLAUDE_FILE_PATHS"</span>
+          }
+        ]
+      }
+    ]
+  }
+}</pre>
+      </div>
+
+      <p>Eventos principais: <code>PreToolUse</code>, <code>PostToolUse</code>, <code>UserPromptSubmit</code>, <code>Stop</code>, <code>SessionStart</code>, <code>Notification</code>.</p>
+    </div>
+  </article>
+
+  <!-- CAP 09 -->
+  <article class="chapter" id="cap-09">
+    <div class="chapter-header" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+      <div class="chapter-number" style="transform: translateY(-3.37528px);">09</div>
+      <div class="chapter-kicker">Capítulo nove · extensão</div>
+      <h2 class="chapter-title"><em>MCPs</em> — plugando habilidades</h2>
+    </div>
+    <div class="chapter-body" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+      <p class="lead-p">MCPs (Model Context Protocol) são servidores externos que expõem novas ferramentas ao Claude: browsers, bancos, APIs. É como plugar plugins no agente.</p>
+
+      <div class="mcps">
+        <div class="mcp" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+          <div class="mcp-num">01</div>
+          <h4>Playwright</h4>
+          <p>Automação de browser para testes visuais, validações e scraping.</p>
+        </div>
+        <div class="mcp" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+          <div class="mcp-num">02</div>
+          <h4>Supabase</h4>
+          <p>Consultas e operações em bancos Postgres hospedados na Supabase.</p>
+        </div>
+        <div class="mcp" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+          <div class="mcp-num">03</div>
+          <h4>Context7</h4>
+          <p>Documentação atualizada de qualquer biblioteca ou framework.</p>
+        </div>
+        <div class="mcp" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+          <div class="mcp-num">04</div>
+          <h4>Serena</h4>
+          <p>Operações semânticas de código via LSP — rápidas e precisas.</p>
+        </div>
+      </div>
+
+      <div class="terminal">
+        <div class="term-bar">
+          <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+          <span class="term-title">bash</span>
+          <button class="term-copy">copy</button>
+        </div>
+<pre class="term-body"><span class="prompt">$</span> <span class="cmd">claude mcp add playwright npx @playwright/mcp@latest</span>
+<span class="prompt">$</span> <span class="cmd">claude mcp list</span>
+<span class="output">✓ playwright    conectado
+✓ supabase      conectado
+✓ context7      conectado</span></pre>
+      </div>
+    </div>
+  </article>
+
+  <!-- CAP 10 -->
+  <article class="chapter" id="cap-10">
+    <div class="chapter-header" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+      <div class="chapter-number" style="transform: translateY(-8.33px);">10</div>
+      <div class="chapter-kicker">Capítulo dez · reuso</div>
+      <h2 class="chapter-title"><em>Skills</em> reutilizáveis</h2>
+    </div>
+    <div class="chapter-body" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+      <p class="lead-p">Skills são pacotes de instruções que o Claude invoca sozinho quando uma tarefa bate com a descrição. Ficam em <code>.claude/skills/nome/SKILL.md</code>.</p>
+
+      <div class="terminal">
+        <div class="term-bar">
+          <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+          <span class="term-title">SKILL.md</span>
+          <button class="term-copy">copy</button>
+        </div>
+<pre class="term-body"><span class="comment">---</span>
+<span class="key">name</span>: deploy-checklist
+<span class="key">description</span>: Use antes de qualquer deploy em produção
+  para validar testes, migrations e variáveis de ambiente
+<span class="comment">---</span>
+
+<span class="heading"># Checklist de Deploy</span>
+
+1. Rodar toda a suíte de testes
+2. Verificar migrations pendentes
+3. Conferir variáveis de ambiente
+4. Criar tag de versão</pre>
+      </div>
+    </div>
+  </article>
+
+  <!-- CAP 11 -->
+  <article class="chapter" id="cap-11">
+    <div class="chapter-header" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+      <div class="chapter-number" style="transform: translateY(-11.511px);">11</div>
+      <div class="chapter-kicker">Capítulo onze · disciplina</div>
+      <h2 class="chapter-title"><em>Dez</em> boas práticas</h2>
+    </div>
+    <div class="chapter-body" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+      <ol class="practices">
+        <li style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+          <h4>Mantenha o CLAUDE.md vivo</h4>
+          <p>Documente convenções, comandos, arquitetura e regras. É a memória do projeto.</p>
+        </li>
+        <li style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+          <h4>Seja específico nos prompts</h4>
+          <p>Em vez de "arrume isso", diga "corrija o bug na função X em <code>src/auth.js</code> que retorna null quando o usuário expira".</p>
+        </li>
+        <li style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+          <h4>Use Plan Mode para tarefas grandes</h4>
+          <p>Pressione <kbd>Shift+Tab</kbd> para ativar o modo planejamento. O Claude planeja antes de mexer em nada.</p>
+        </li>
+        <li style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+          <h4>Dispare subagentes em paralelo</h4>
+          <p>Investigações, buscas amplas e análises independentes podem — e devem — rodar simultaneamente.</p>
+        </li>
+        <li style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+          <h4>Use <code>/compact</code> quando o contexto encher</h4>
+          <p>Comprime o histórico preservando o essencial e libera tokens para continuar trabalhando.</p>
+        </li>
+        <li style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+          <h4>Versione suas configurações</h4>
+          <p>Commit <code>.claude/settings.json</code>, <code>agents/</code> e <code>commands/</code>. Toda a equipe ganha.</p>
+        </li>
+        <li style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+          <h4>Revise antes de aceitar</h4>
+          <p>Leia os diffs. O Claude pode errar. Em tarefas críticas, prefira modo interativo ao auto-accept.</p>
+        </li>
+        <li style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+          <h4>Referencie arquivos com <code>@</code></h4>
+          <p>Digite <code>@src/index.js</code> no prompt para incluir o arquivo rapidamente no contexto.</p>
+        </li>
+        <li style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+          <h4>Limpe contexto entre tarefas</h4>
+          <p>Use <code>/clear</code> ao mudar de assunto completamente para evitar contaminação.</p>
+        </li>
+        <li style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+          <h4>Automatize com hooks</h4>
+          <p>Formatadores, linters e testes rápidos viram parte invisível do fluxo.</p>
+        </li>
+      </ol>
+    </div>
+  </article>
+
+  <!-- CAP 12 -->
+  <article class="chapter" id="cap-12">
+    <div class="chapter-header" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+      <div class="chapter-number" style="transform: translateY(-5.45102px);">12</div>
+      <div class="chapter-kicker">Capítulo doze · ritmo</div>
+      <h2 class="chapter-title">O <em>workflow</em> recomendado</h2>
+    </div>
+    <div class="chapter-body" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+      <div class="timeline">
+        <div class="tl-step" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+          <div class="tl-num">I</div>
+          <h4>Explorar</h4>
+          <p>Peça ao Claude para ler e entender a parte do código que você vai tocar.</p>
+        </div>
+        <div class="tl-step" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+          <div class="tl-num">II</div>
+          <h4>Planejar</h4>
+          <p>Entre em Plan Mode (<kbd>Shift+Tab</kbd>) e revise o plano antes de executar.</p>
+        </div>
+        <div class="tl-step" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+          <div class="tl-num">III</div>
+          <h4>Implementar</h4>
+          <p>Deixe o Claude executar com as permissões apropriadas ao risco.</p>
+        </div>
+        <div class="tl-step" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+          <div class="tl-num">IV</div>
+          <h4>Testar</h4>
+          <p>Rode testes automatizados ou peça ao Claude para criar novos.</p>
+        </div>
+        <div class="tl-step" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+          <div class="tl-num">V</div>
+          <h4>Revisar</h4>
+          <p>Cheque o diff final, garanta que nada foi quebrado.</p>
+        </div>
+        <div class="tl-step" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+          <div class="tl-num">VI</div>
+          <h4>Commitar</h4>
+          <p>Peça um commit semântico explicando o "porquê", não o "o quê".</p>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <!-- CAP 13 -->
+  <article class="chapter" id="cap-13">
+    <div class="chapter-header" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+      <div class="chapter-number" style="transform: translateY(-5.57075px);">13</div>
+      <div class="chapter-kicker">Capítulo treze · colofão</div>
+      <h2 class="chapter-title">Leia <em>mais</em>, experimente</h2>
+    </div>
+    <div class="chapter-body" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+      <div class="links">
+        <a class="link" href="https://docs.claude.com/en/docs/claude-code" target="_blank" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+          <span class="link-kicker">Oficial</span>
+          <h4>Documentação Claude Code</h4>
+          <span class="link-url">docs.claude.com/en/docs/claude-code →</span>
+        </a>
+        <a class="link" href="https://github.com/anthropics/claude-code" target="_blank" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+          <span class="link-kicker">Código</span>
+          <h4>GitHub — anthropics/claude-code</h4>
+          <span class="link-url">github.com/anthropics/claude-code →</span>
+        </a>
+        <a class="link" href="https://docs.claude.com/en/docs/claude-code/mcp" target="_blank" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+          <span class="link-kicker">Protocolo</span>
+          <h4>Documentação MCP</h4>
+          <span class="link-url">docs.claude.com/.../mcp →</span>
+        </a>
+        <a class="link" href="https://modelcontextprotocol.io/" target="_blank" style="opacity: 1; transform: translateY(0px); transition: opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);">
+          <span class="link-kicker">Open Spec</span>
+          <h4>modelcontextprotocol.io</h4>
+          <span class="link-url">modelcontextprotocol.io →</span>
+        </a>
+      </div>
+    </div>
+  </article>
+
+  <!-- Footer -->
+  <footer class="colofao">
+    <div class="colofao-grid">
+      <div>
+        <h5>Manual do Claude Code</h5>
+        <p>Edição de estreia · Nº 01 · Volume I · Abril de 2026</p>
+      </div>
+      <div>
+        <h5>Tipografia</h5>
+        <p>Fraunces para títulos · Instrument Serif para itálicos · JetBrains Mono para código</p>
+      </div>
+      <div>
+        <h5>Baseado em</h5>
+        <p>Documentação oficial da Anthropic · <em>docs.claude.com</em></p>
+      </div>
+    </div>
+    <div class="colofao-bottom">
+      <span>★ FIM DA EDIÇÃO ★</span>
+      <span>Impresso em bits · feito no terminal · revisado manualmente</span>
+      <span>★ Nº 01 ★</span>
+    </div>
+  </footer>
+
+  <script src="./js/script.js.download"></script>
+
+
+</body></html>

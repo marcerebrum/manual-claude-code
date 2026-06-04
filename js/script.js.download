@@ -1,0 +1,80 @@
+// ═══════════════════════════════════════════════════
+// MANUAL · CLAUDE CODE · interações
+// ═══════════════════════════════════════════════════
+
+// Terminal copy buttons
+document.querySelectorAll('.term-copy').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const code = btn.closest('.terminal').querySelector('.term-body').innerText;
+    navigator.clipboard.writeText(code).then(() => {
+      const orig = btn.textContent;
+      btn.textContent = 'ok ✓';
+      btn.classList.add('copied');
+      setTimeout(() => {
+        btn.textContent = orig;
+        btn.classList.remove('copied');
+      }, 1500);
+    });
+  });
+});
+
+// Reveal on scroll — staggered elegant entrance
+const revealables = document.querySelectorAll(
+  '.chapter-header, .chapter-body, .toc-list li, .file, .feat, .mcp, .practices li, .tl-step, .link, .cmd-row, .key-row'
+);
+
+revealables.forEach(el => {
+  el.style.opacity = '0';
+  el.style.transform = 'translateY(24px)';
+  el.style.transition = 'opacity 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1)';
+});
+
+const io = new IntersectionObserver((entries) => {
+  entries.forEach((entry, i) => {
+    if (entry.isIntersecting) {
+      setTimeout(() => {
+        entry.target.style.opacity = '1';
+        entry.target.style.transform = 'translateY(0)';
+      }, i * 40);
+      io.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.12, rootMargin: '0px 0px -8% 0px' });
+
+revealables.forEach(el => io.observe(el));
+
+// Parallax sutil no número de capítulo
+const chapterNumbers = document.querySelectorAll('.chapter-number');
+window.addEventListener('scroll', () => {
+  const scrollY = window.scrollY;
+  chapterNumbers.forEach(num => {
+    const rect = num.getBoundingClientRect();
+    const inView = rect.top < window.innerHeight && rect.bottom > 0;
+    if (inView) {
+      const offset = (window.innerHeight - rect.top) * 0.04;
+      num.style.transform = `translateY(${-offset}px)`;
+    }
+  });
+}, { passive: true });
+
+// Logo badge — girar no hover já é CSS. Adicionar tilt no mouse.
+const logo = document.querySelector('.logo-badge');
+if (logo) {
+  logo.addEventListener('click', () => {
+    logo.style.transition = 'transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1)';
+    logo.style.transform = 'rotate(360deg) scale(1.1)';
+    setTimeout(() => {
+      logo.style.transform = '';
+    }, 600);
+  });
+}
+
+// Console easter egg
+console.log(
+  '%c★ MANUAL DO CLAUDE CODE · Nº 01 ★',
+  'font-family: Georgia, serif; font-size: 20px; font-style: italic; color: #c04010; font-weight: bold;'
+);
+console.log(
+  '%cFeito no terminal, revisado manualmente.',
+  'font-family: monospace; font-size: 11px; color: #5a4f42;'
+);
